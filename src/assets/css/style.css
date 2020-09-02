@@ -1487,6 +1487,7 @@ section {
 .blog .entry .entry-footer {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
+  background-color: 4313c7;
 }
 
 .blog .entry .entry-footer i {
@@ -1881,7 +1882,6 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
   font-size: 14px;
   background: #f6f4f4;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1889,7 +1889,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #4313c7;
 }
 
 #footer .footer-top .footer-contact {
@@ -1904,18 +1904,22 @@ section {
   font-weight: 700;
 }
 
+#footer .footer-top .footer-contact h3 {
+  color: #f6f4f4;
+}
+
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Nunito", sans-serif;
-  color: #777777;
+  color: #f6f4f4;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #f6f4f4;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1932,7 +1936,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4313c7;
+  color: #e76920;
   font-size: 18px;
   line-height: 1;
 }
@@ -1948,15 +1952,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #f6f4f4;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #4313c7;
+  color: #e76920 !important;
 }
 
 #footer .footer-newsletter {
